@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BMUIDecorator_Example' do
+  pod 'BMUIDecorator', :path => '../'
+
+  target 'BMUIDecorator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
