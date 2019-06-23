@@ -1,0 +1,16 @@
+PODS:
+  - BMUIDecorator (0.1.0)
+
+DEPENDENCIES:
+  - BMUIDecorator (from `../`)
+
+EXTERNAL SOURCES:
+  BMUIDecorator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BMUIDecorator: 08e446b6468ad40bbaab16418bb670ba44e7ba37
+
+PODFILE CHECKSUM: 3559d77c48b9da72e965ae56eb166603faf9145d
+
+COCOAPODS: 1.7.2

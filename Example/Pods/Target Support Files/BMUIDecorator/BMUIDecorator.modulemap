@@ -1,0 +1,6 @@
+framework module BMUIDecorator {
+  umbrella header "BMUIDecorator-umbrella.h"
+
+  export *
+  module * { export * }
+}

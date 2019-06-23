@@ -1,0 +1,6 @@
+framework module Pods_BMUIDecorator_Example {
+  umbrella header "Pods-BMUIDecorator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
