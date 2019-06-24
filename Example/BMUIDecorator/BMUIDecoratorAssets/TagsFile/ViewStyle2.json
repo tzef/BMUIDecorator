@@ -1,0 +1,24 @@
+{
+    "MainBorder": {
+        "setBorder": {
+            "width" : 1,
+            "color" : "#00FF00"
+        }
+    },
+    "SubBorder": {
+        "setBorder": {
+            "width" : 5,
+            "color" : "#FF0000"
+        }
+    },
+    "LargeCorner": {
+        "setCorner": {
+            "radius" : 5.0
+        }
+    },
+    "LittleCorner": {
+        "setCorner": {
+            "radius" : 20.0
+        }
+    }
+}

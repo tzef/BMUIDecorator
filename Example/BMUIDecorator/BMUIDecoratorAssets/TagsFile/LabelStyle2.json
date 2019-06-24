@@ -1,0 +1,50 @@
+{
+    "MainTitle": {
+        "setFontSize": {
+            "size": 12
+        },
+        "setTextColor": {
+            "color": "#FA0A0A"
+        },
+        "setLineSpacing": {
+            "spacing": 4
+        },
+        "setFontType": {
+            "type": "system"
+        },
+        "setShadow": {
+            "color": "#FFFF00",
+            "radius": 2.0
+        },
+        "setNumberOfLines": {
+            "numberOfLines": 0
+        },
+        "setTextAlignment": {
+            "textAlignment": "left"
+        }
+    },
+    "SubTitle": {
+        "setFontSize": {
+            "size": 18
+        },
+        "setTextColor": {
+            "color": "#FFFFFF"
+        },
+        "setLineSpacing": {
+            "spacing": 10
+        },
+        "setFontType": {
+            "type": "boldSystem"
+        },
+        "setShadow": {
+            "color": "#000000",
+            "radius": 5.0
+        },
+        "setNumberOfLines": {
+            "numberOfLines": 1
+        },
+        "setTextAlignment": {
+            "textAlignment": "center"
+        }
+    }
+}

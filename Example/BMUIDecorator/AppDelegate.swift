@@ -7,15 +7,44 @@
 //
 
 import UIKit
+import BMUIDecorator
 
+enum AppStyleAdaptor: Int {
+    case style1 = 1
+    case style2 = 2
+
+    func getViewStoreName() -> String {
+        return "ViewStyle\(self.rawValue)"
+    }
+    func getLabelStoreName() -> String {
+        return "LabelStyle\(self.rawValue)"
+    }
+    func getButtonStoreName() -> String {
+        return "ButtonStyle\(self.rawValue)"
+    }
+
+    func install() {
+        BMUIDecoratorStoresManager.default.autoGenerate(storeName: getViewStoreName(),
+                                                        decoratorCode: DecoratorCode_View())
+        BMUIDecoratorStoresManager.default.autoGenerate(storeName: getLabelStoreName(),
+                                                        decoratorCode: DecoratorCode_Label())
+        BMUIDecoratorStoresManager.default.autoGenerate(storeName: getButtonStoreName(),
+                                                        decoratorCode: DecoratorCode_Button())
+    }
+}
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var appStyle = AppStyleAdaptor.style1
 
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        AppStyleAdaptor.style1.install()
+        AppStyleAdaptor.style2.install()
+
         return true
     }
 

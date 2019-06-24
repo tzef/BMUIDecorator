@@ -13,6 +13,11 @@
 		5A663EACD843C212DC11893B59182BDA /* BMUIDecorator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CE4995C5BC3380AF0A7599E73AB6B3 /* BMUIDecorator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6471DBDE1B05C50BCF498CD14B2C8845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		650652AA7D1022AFB9530997E91AC185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C9CAD5AA22BFB7B300013DFD /* BMUIDecoratorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CAD5A522BFB7B300013DFD /* BMUIDecoratorStore.swift */; };
+		C9CAD5AB22BFB7B300013DFD /* BMUIDecorative.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CAD5A622BFB7B300013DFD /* BMUIDecorative.swift */; };
+		C9CAD5AC22BFB7B300013DFD /* BMUIDecoratorInfoNameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CAD5A722BFB7B300013DFD /* BMUIDecoratorInfoNameProtocol.swift */; };
+		C9CAD5AD22BFB7B300013DFD /* BMUIDecoratorStoresManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CAD5A822BFB7B300013DFD /* BMUIDecoratorStoresManager.swift */; };
+		C9CAD5AE22BFB7B300013DFD /* BMUIDecoratorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CAD5A922BFB7B300013DFD /* BMUIDecoratorCode.swift */; };
 		CD14A390B5A8EF6CC779B40EF0376A73 /* Pods-BMUIDecorator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B650575F281539213FCA3E3AFF4F313C /* Pods-BMUIDecorator_Example-dummy.m */; };
 		F6E2D37C86957A5346AB4BFBC3B1C10E /* Pods-BMUIDecorator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3908060BEFBDC978F8D795CE7C7E78 /* Pods-BMUIDecorator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC627E26C83A2A0B688D33D6BFFD62E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -62,6 +67,11 @@
 		B508FAD413D987CD861647FA0EA43B16 /* BMUIDecorator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMUIDecorator.xcconfig; sourceTree = "<group>"; };
 		B650575F281539213FCA3E3AFF4F313C /* Pods-BMUIDecorator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BMUIDecorator_Example-dummy.m"; sourceTree = "<group>"; };
 		C773126E8223C0400C1A3F28E33B28A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C9CAD5A522BFB7B300013DFD /* BMUIDecoratorStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMUIDecoratorStore.swift; sourceTree = "<group>"; };
+		C9CAD5A622BFB7B300013DFD /* BMUIDecorative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMUIDecorative.swift; sourceTree = "<group>"; };
+		C9CAD5A722BFB7B300013DFD /* BMUIDecoratorInfoNameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMUIDecoratorInfoNameProtocol.swift; sourceTree = "<group>"; };
+		C9CAD5A822BFB7B300013DFD /* BMUIDecoratorStoresManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMUIDecoratorStoresManager.swift; sourceTree = "<group>"; };
+		C9CAD5A922BFB7B300013DFD /* BMUIDecoratorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMUIDecoratorCode.swift; sourceTree = "<group>"; };
 		CB53AA3BD3414D2CDDD23DCCA92C8B2A /* BMUIDecorator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BMUIDecorator-Info.plist"; sourceTree = "<group>"; };
 		D0CE4995C5BC3380AF0A7599E73AB6B3 /* BMUIDecorator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMUIDecorator-umbrella.h"; sourceTree = "<group>"; };
 		DA76AF124646BF337F736689CFD1A155 /* Pods-BMUIDecorator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMUIDecorator_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +204,11 @@
 		C9CAD58222BFAB4700013DFD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C9CAD5A622BFB7B300013DFD /* BMUIDecorative.swift */,
+				C9CAD5A922BFB7B300013DFD /* BMUIDecoratorCode.swift */,
+				C9CAD5A722BFB7B300013DFD /* BMUIDecoratorInfoNameProtocol.swift */,
+				C9CAD5A522BFB7B300013DFD /* BMUIDecoratorStore.swift */,
+				C9CAD5A822BFB7B300013DFD /* BMUIDecoratorStoresManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -320,6 +335,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					63EF1B596BD286F2D778C1110DF32603 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -377,7 +397,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9CAD5AB22BFB7B300013DFD /* BMUIDecorative.swift in Sources */,
+				C9CAD5AD22BFB7B300013DFD /* BMUIDecoratorStoresManager.swift in Sources */,
+				C9CAD5AC22BFB7B300013DFD /* BMUIDecoratorInfoNameProtocol.swift in Sources */,
+				C9CAD5AA22BFB7B300013DFD /* BMUIDecoratorStore.swift in Sources */,
 				208894D7F71E9D42238720F108F5CF64 /* BMUIDecorator-dummy.m in Sources */,
+				C9CAD5AE22BFB7B300013DFD /* BMUIDecoratorCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +693,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B508FAD413D987CD861647FA0EA43B16 /* BMUIDecorator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -688,7 +714,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -700,6 +726,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B508FAD413D987CD861647FA0EA43B16 /* BMUIDecorator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -720,7 +747,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

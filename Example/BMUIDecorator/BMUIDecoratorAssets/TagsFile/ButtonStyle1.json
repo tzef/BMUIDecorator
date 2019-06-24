@@ -1,0 +1,36 @@
+{
+    "MainButton": {
+        "setTitleFontSize": {
+            "size": 16
+        },
+        "setTitleColor": {
+            "color": "#000000"
+        },
+        "setHighLightedTitleColor": {
+            "color": "#E0E0E0"
+        },
+        "setBackgroundColor": {
+            "color": "#E0E0E0"
+        },
+        "setHighLightedBackgroundColor": {
+            "color": "#000000"
+        }
+    },
+    "SubButton": {
+        "setTitleFontSize": {
+            "size": 12
+        },
+        "setTitleColor": {
+            "color": "#FA0A0A"
+        },
+        "setHighLightedTitleColor": {
+            "color": "#000000"
+        },
+        "setBackgroundColor": {
+            "color": "#0000FF"
+        },
+        "setHighLightedBackgroundColor": {
+            "color": "#FA0A0A"
+        }
+    }
+}
