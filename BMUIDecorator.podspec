@@ -32,7 +32,8 @@ The idea is by providing several json which define separate categories of styles
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Classes/**/*'
-  
+  s.swift_version = '5.0'
+
   # s.resource_bundles = {
   #   'BMUIDecorator' => ['BMUIDecorator/Assets/*.png']
   # }
